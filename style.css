@@ -1,0 +1,217 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgba(44, 152, 214, 0.575) !important;
+    font-family: 'Raleway', sans-serif !important;
+}
+.container1{
+    padding:10px;
+    width:550px;
+    margin-left: auto;
+    margin-right: auto;
+    position: static;
+    margin-top: -190px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.664);
+    align-content: center;
+    margin-bottom: 10%;
+    box-shadow: 0px 10px 10px 10px rgb(50, 117, 103);
+}
+.container1:hover{
+    transform: scale(1.1) ;
+    -webkit-transition: .7s ease-in-out;
+}
+
+.header{
+    width: 100%;
+    height:33%;
+    background-image: url('https://miro.medium.com/proxy/1*TkU7i6Jkr9iqQCELBmzbAQ.jpeg');
+    background-size: auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 15px 15px 0 0;
+    position: relative;
+}
+.clear{
+    width : 30px;
+    height: 30px;
+    position: absolute;
+    right:20px;
+    top: 20px;
+}
+.clear i{
+    font-size: 45px;
+    color: #FFF;
+    text-shadow: 10px 3px 20px rgb(247, 10, 2);
+}
+.clear i:hover{
+    cursor: pointer;
+    text-shadow: 1px 3px 5px rgb(2, 247, 22);
+    transform: scale(1.2) rotate(120deg) translateX(5px) translateZ(5px);
+}
+#date{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: rgb(50, 117, 103);
+    background-color: rgba(245, 245, 245, 0.37);
+    border-radius:15px;
+    border: solid 1px;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.content{
+    width:100%;
+    height: 50%;
+    max-height:350px;
+    background-color: #FFF;
+    overflow: auto;
+}
+.content::-webkit-scrollbar { 
+    display: none; 
+}
+.content ul{
+    padding:0;
+    margin:0;
+}
+.item{
+    width:100%;
+    height: 45px;
+    min-height: 45px;
+    position: relative;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.item i.co{
+    position: absolute;
+    font-size: 25px;
+    padding-left:5px;
+    left:15px;
+    top:10px;
+}
+.item i.co:hover{
+    cursor: pointer;
+}
+.fa-check-circle{
+    color:#6eb200;
+}
+.item p.text{
+    position: absolute;
+    padding:0;
+    margin:0;
+    font-size: 20px;
+    left:50px;
+    top:5px;
+    background-color: #FFF;
+    max-width:285px;
+}
+.lineThrough{
+    text-decoration: line-through;
+    color : #ccc;
+}
+.item i.de{
+    position: absolute;
+    font-size: 30px;
+    right:15px;
+    top:10px;
+}
+.item i.de:hover{
+    color:#af0000;
+    cursor: pointer;
+}
+.add-to-do{
+    border: double 5px rgb(23, 65, 55);
+    border-radius: 20px ;
+    position: relative;
+    width: 300px;
+    height:60px;
+    background-color: rgba(255, 255, 255, 0.404);
+    padding: 10px;
+}
+.add-to-do i{
+    position: absolute;
+    font-size: 40px;
+    color:  rgb(50, 117, 103);
+}
+.add-to-do input{
+    position: absolute;
+    left: 50px;
+    height: 35px;
+    width: 310px;
+    background-color: transparent;
+    border: 0px solid;
+    
+    font-size: 20px;
+    padding-left:10px;
+    outline: none;
+    
+}
+.add-to-do ::placeholder{
+    color: rgb(50, 117, 103);
+}
+.jumbotron{
+    background-image: url(https://images.unsplash.com/photo-1553532434-5ab5b6b84993?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+    background-size: cover;
+    height: 50%;
+
+}
+@media only screen and (max-width:375px){
+    .container1{
+        width: 80%;
+        transform: none !important;
+    }
+}
+@media only screen and (max-width:414px){
+    .container1{
+        width: 80%;
+        transform: none !important;
+        margin-top: -200px;
+    }
+}
+@media only screen and (max-width:320px){
+    .container1{
+        width: 80%;
+        transform: none !important;
+        margin-top: -100px;
+    }
+}
+@media only screen and (max-width:360px){
+    .container1{
+        width: 80%;
+        transform: none !important;
+        margin-top: -100px;
+    }
+    .jumbotron{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
